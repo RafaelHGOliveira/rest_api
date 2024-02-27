@@ -1,6 +1,7 @@
 class HomeController {
   async store(req, res) {
-    res.json(req.file);
+    const { originalname, filename } = req.file;
+    res.json({ originalname, filename });
   }
 }
 
