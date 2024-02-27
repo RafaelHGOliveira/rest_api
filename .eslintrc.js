@@ -26,5 +26,6 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-template-curly-in-string': 'off',
     'no-param-reassign': 'off',
+    camelcase: 'off',
   },
 };
